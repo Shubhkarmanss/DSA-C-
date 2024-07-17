@@ -2,25 +2,44 @@
 #include<iostream>
 using namespace std;
 
-void printelements(vector<int> &array, int length)
-{
-    for (int i = 0; i < length; i++)
+int main(){
+
+    int row;
+    cout<<"Enter the number of rows you want to make"<<endl;
+    cin>>row;
+    for (int i = 0; i < row; i++)
     {
-        cout << array[i] << " ";
+        for (int star = 0; star < row-i; star++)
+        {
+            cout<<"*";
+        }
+        for (int space = 0; space < 2*i+1; space++)
+        {
+            cout<<" ";
+        }
+        for (int star = 0; star < row-i; star++)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+        
     }
-}
-int main()
-{
-    int length, element;
-    vector<int> array;
-    cout << "Enter the length of array" << endl;
-    cin >> length;
-    for (int i = 0; i < length; i++)
+    for (int i = 0; i < row; i++)
     {
-        cout << "Enter the " << i + 1 << " element in array" << endl;
-        cin >> element;
-        array.push_back(element);
+        for (int star = 0; star < i+1; star++)
+        {
+            cout<<"*";
+        }
+        for (int space = 0; space < (2*row)-(2*i)-1; space++)
+        {
+            cout<<" ";
+        }
+        for (int star = 0; star < i+1; star++)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+        
     }
-    printelements(array, length);
-    cout << "Applying Selection sort we get" << endl;
+    
 }

@@ -11,6 +11,7 @@
         "binarysearch.C": "cpp",
         "vector": "cpp",
         "Sorting.C": "cpp",
-        "strings.C": "cpp"
+        "strings.C": "cpp",
+        "tempCodeRunnerFile.C": "cpp"
     }
 }
