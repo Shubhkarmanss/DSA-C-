@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "numbersystemdecimal&binary.C": "cpp",
+        "numbersystemdecimalandbinary.C": "cpp",
+        "Patterns.C": "cpp",
+        "Arrays.C": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp",
+        "binarysearch.C": "cpp",
+        "vector": "cpp",
+        "Sorting.C": "cpp",
+        "strings.C": "cpp"
+    }
+}
